@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector Game</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- This game is linked to the Bootstrap-Portfolio that can be found in the same folder-->
+    <div>
+        <h1>CrystalsCollector!</h1>
+        <p id="text"> You will be given a random number at the start of the game. <br><br>There are four crystals below.By clicking on a crystal you <br> will add a specific amount of points to your total score. <br><br> You win the game by matching your total score
+            to random number,you lose the game if your total score goes above the random number.<br><br> The value of each crystal is hidden from you until you click on it.<br><br> Each time when the game starts,the game will change the values of each
+            crystal
+        </p>
+
+        <p id="guessNumber">0</p>
+
+    </div>
+    <div id="winslosses">
+        <p>Wins: <span id="wins">0</span></p>
+        <p>Losses: <span id="losses">0</span></p>
+
+    </div>
+
+
+    <img id="blueCrystal" data="" src="./assets/images/blue crystal.jpg" width=90 height=90>
+    <img id="redCrystal" data="" src="./assets/images/red crystal.jpg" width=90 height=90>
+    <img id="greenCrystal" data="" src="./assets/images/green crystal.jpg" width=90 height=90>
+    <img id="yellowCrystal" data="" src="./assets/images/yellow crystal.jpg" width=90 height=90>
+
+    <div>
+        <p id="score">Your total score is: </p>
+        <p> <span id="totalscore">0</span></p>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/javascript/game.js"></script>
+
+
+
+</body>
+
+</html>
